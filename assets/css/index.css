@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(54,0,25,1) 90%); */
+    
+}
+
+.coverpage {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url("./../img/mechatronic.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.shadow {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.coverpage_title {
+    z-index: 2;
+    border: .4rem double rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .6);
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
