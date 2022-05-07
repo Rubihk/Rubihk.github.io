@@ -16,7 +16,7 @@ body{
 .viewer {
     width: 100%;
     height: 100vh;
-    background: url("/assets/img/self-driving-cars/img1.jpg");
+    background: url("./../img/self-driving-cars/img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
