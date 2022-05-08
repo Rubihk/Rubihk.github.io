@@ -13,6 +13,56 @@
 
     <script src="assets/js/jquery-3.2.1.js"></script>
     <script src="assets/js/events.js"></script>
+    <script>
+        function Descarga(url,name){
+        
+        let a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.download = name;
+
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+    </script>
+    <style>
+    .button_download{
+        padding: 16px;
+        background-color: white;
+        color:black;
+        font-weight: bold;
+        text-transform: capitalize;
+        border: 2px solid black;
+        cursor:pointer;
+        transition: .6s;
+        font-size: 15px;
+        transform-origin: top;
+        transform: skewX(-45deg);
+    }
+    .powerpoint:hover{
+        border:2px solid #fa8231;
+        background-color: #fa8231;
+        color:white;
+        content: "Powerpoint";
+    }
+    .word:hover{
+        border:2px solid #4b7bec;
+        background-color: #4b7bec;
+        color:white;
+        content: "Word";
+    }
+
+    .excel:hover{
+        border:2px solid #26de81;
+        background-color: #26de81;
+        color:white;
+        content: "Excel";
+    }
+
+
+    </style>
+
 </head>
 <body>
     <header class="header">
@@ -70,7 +120,42 @@
         </div>
         <h2>¿Cómo podrían sustituirnos este tipo de máquinas?</h2>
         <div class="skew">
-            <p>Haciendo cálculos más rápidos y precisos, cometiendo menos errores y optimizando tiempos.</p>
+            <p>Haciendo cálculos más rápidos y precisos, cometiendo menos errores y optimizando tiempos. Por lo tanto, inevitablemente esto desencadenará en recorte de personal y falta de empleo, pero generará más trabajo para profesionistas en distintas ingenierías.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="imgBx">
+            <img src="./assets/img/conclusion/img4.jpg" alt="">
+            <img src="./assets/img/conclusion/img4.jpg" alt="">
+            <img src="./assets/img/conclusion/img4.jpg" alt="">
+        </div>
+        <h2>Volviendo a los self-driving cars, ¿realmente este tipo de autos nos ayudarán?</h2>
+        <div class="skew">
+            <p>Estos autos incorporan una tecnología capaz de tomar decisiones que modifican la conducción de estos. Sin embargo, hay variables que aún no son del todo capaces de diferenciar, en comparación de un humano que si puede hacerlo. Por lo tanto, los conductores tienen que estar atentos en todo momento si es que no quieren pertenecer al gran número de accidentes registrados con este tipo de automóviles. Además, su alto costo y posibles hackeos lo pintan como una compra no tan accesible y poco segura. Por otro lado, la ventaja principal es su nulo consumo de gasolina.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="imgBx">
+            <img src="./assets/img/conclusion/img5.jpg" alt="">
+            <img src="./assets/img/conclusion/img5.jpg" alt="">
+            <img src="./assets/img/conclusion/img5.jpg" alt="">
+        </div>
+        <h2>¿Cuál es el futuro de los self-driving cars?</h2>
+        <div class="skew">
+            <p>En la actualidad este tipo de autos no son seguros de utilizar con la funcion "Auto Pilot", ya que el porcentaje de accidentes aún es significativo. Sin embargo, nuestro equipo no tiene duda que este es el futuro. Con el paso del tiempo se desarrollarán más tecnologías que mejorarán la seguridad, inteligencia y costos de estos vehículos, mejorando así nuestra vida cotidiana.</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>¿Quieres saber más acerca de la información aquí presentada?</h2>
+        <div class="skew">
+            <p>Descarga los siguientes archivos donde nos extendemos mucho más sobre lo visto aquí.</p>
+            
+    <button class="button_download powerpoint" onclick='Descarga("./assets/files/A1-1724118-037.pptx","powerpointDescargado.pptx")'>powerpoint <i class="fa fa-file-powerpoint-o"></i></button>
+    <button class="button_download word" onclick='Descarga("./assets/files/A4-1724118-037.docx","wordDescargado.docx")'>word <i class="fa fa-file-word-o"></i></button>
+    <button class="button_download excel" onclick='Descarga("./assets/files/A2-1724118-037.xlsx","excelDescargado.xlsx")'>excel <i class="fa fa-file-excel-o"></i></button>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
 </body>
