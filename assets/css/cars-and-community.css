@@ -116,10 +116,11 @@ body{
     color: white;
     font-family: 'Nunito', sans-serif;
     display: grid;
+    gap: 10px 10px;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     min-height: 40%;
-    background-color: red;
+    background-color: transparent;
 }
 .fired .area{
     display: flex;
@@ -280,8 +281,23 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 .accidents .info-of-table{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
     align-items: center;
     justify-content: space-around;
     width: 100%;
+}
+.accidents .info-of-table div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.accidents .info-of-table div img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
 }

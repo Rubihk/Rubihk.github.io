@@ -51,7 +51,6 @@ let arrayForInfo = [
     <div class="separator">
         <span>4.- Constantes actualizaciones de software</span>
     </div>
-    <a href="./../cars-and-community.html">Ir a cars-and-community</a>
     `
 ]
 

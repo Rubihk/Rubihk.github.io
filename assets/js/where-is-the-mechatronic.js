@@ -48,7 +48,7 @@ let array = [
         `
         <video src="./assets/videos/automobile.mp4" autoplay muted loop></video>
         <div class="content">
-            <h2>Industria automovilística</h2>
+            <h2>Industria automotríz</h2>
             <br>
             <span>Es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing y ventas de automóviles.</span><span>&nbsp;¡Vamos a conocer más sobre esta industria!</span>
         </div>

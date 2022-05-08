@@ -62,7 +62,7 @@ body{
     opacity: .5;    
     height: 100%;
     width: 30%;
-    background-color: blue;
+    background-color: transparent;
     border-radius: 1rem;
     overflow: hidden;
     border: .2rem solid black;

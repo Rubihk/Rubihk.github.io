@@ -41,29 +41,38 @@ body{
     font-family: 'Nunito';
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
     justify-content: center;
     padding-left: 2rem;
 }
-.coverpage_info .title div {
+.videoplayer {
+    height: 50%;
+    background-color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.coverpage_info .title span {
     color: black;
     font-size: 1.6rem;
 }
-.coverpage_info .title div:nth-child(1){
+.coverpage_info .title span:nth-child(1){
     color: rgb(122, 54, 193);
     font-weight: bold;
     font-size: 4rem;
 }
-.coverpage_info .title div:nth-child(2){
-    color: rgb(65, 65, 65);
+.coverpage_info .title span:nth-child(2){
+    color: black;
     font-weight: bold;
     font-size: 3rem;
 }
-.coverpage_info .title div:nth-child(3){
-    color: rgb(65, 65, 65);
+.coverpage_info .title span:nth-child(3){
+    color: black;
     font-weight: bold;
     font-size: 3rem;
 }
-.coverpage_info .title div:nth-child(4){
+.coverpage_info .title span:nth-child(4){
     color: rgb(0, 103, 179);
     font-weight: bold;
     font-size: 3rem;
@@ -99,6 +108,11 @@ body{
     align-items: center;
 }
 .mechatronic-meaning .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
     font-size: 2rem;
 }
