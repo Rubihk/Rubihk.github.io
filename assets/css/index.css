@@ -48,10 +48,13 @@ body{
     padding-left: 2rem;
 }
 .videoplayer {
-    height: 50%;
+    height: auto;
     background-color: black;
     border-radius: 1rem;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .coverpage_info .title span {
     color: black;
@@ -372,4 +375,7 @@ body{
     backdrop-filter: blur(.5rem);
     border-radius: 10%;
     margin: 1rem;
+}
+.coverpage .coverpage_info .title{
+    margin-bottom: 1.6rem;
 }

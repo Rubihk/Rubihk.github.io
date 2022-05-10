@@ -56,6 +56,9 @@ body{
 .container .box.active .content {
     opacity: 1;
     transition-delay: 0.5s;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 2rem;
+    backdrop-filter: blur(1rem);
 }
 
 .container .content {
@@ -98,6 +101,12 @@ body{
     justify-content: center;
     align-items: center;
     opacity: 1;
+}
+.container .controls .title {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 2rem;
+    backdrop-filter: blur(1rem);
+    padding: 1rem;
 }
 .container .controls.hide {
     animation-name: anim-hide;
